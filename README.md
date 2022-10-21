@@ -4,6 +4,12 @@ The tasks for Project 1 are described in the notebook `project-1.ipynb`. Complet
 
 Make sure to **read the instructions below** before starting!
 
+---
+
+## Additional information
+
+Any additional information (e.g. typos, clarifications) will be dated and listed in [Additional information](additional_info.md).
+
 
 ---
 
