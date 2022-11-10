@@ -366,6 +366,9 @@ def seconds_to_datetime(seconds_elapsed, start_time):
 
 
 # Demonstrating usage
+intervals,times_raw = read_heartbeat_data(1)
+hr_raw = hr_from_intervals(intervals)
+times,hr = clean_data(times_raw, hr_raw, 1, 99)
 print(datetime_to_seconds(times))
 print(seconds_to_datetime(seconds_elapsed, start_time))
 
